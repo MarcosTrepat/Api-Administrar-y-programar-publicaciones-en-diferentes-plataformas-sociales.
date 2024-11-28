@@ -1,0 +1,106 @@
+{
+  "cuentas": [
+    {
+      "id": 1,
+      "usuario": "usuario_facebook",
+      "contraseña": "mi_contraseña_segura",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "red_social": "Facebook",
+      "publicaciones": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "usuario": "usuario_instagram",
+      "contraseña": "otra_contraseña_segura",
+      "nombre": "Ana",
+      "apellido": "García",
+      "red_social": "Instagram",
+      "publicaciones": [
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "usuario": "usuario_twitter",
+      "contraseña": "nueva_contraseña_segura",
+      "nombre": "Carlos",
+      "apellido": "Ramirez",
+      "red_social": "Twitter",
+      "publicaciones": []
+    }
+  ],
+  "publicaciones": [
+    {
+      "id": 1,
+      "contenido": "¡Bienvenidos a mi página de Facebook!",
+      "fecha_publicacion": "2024-11-15T10:00:00Z",
+      "frecuencia": "diaria",
+      "contenido_multimedia": {
+        "audio": null,
+        "video": "video_link.mp4",
+        "texto": "Bienvenidos"
+      },
+      "analisis_rendimiento": {
+        "likes": 150,
+        "comentarios": 20,
+        "compartidos": 10
+      }
+    },
+    {
+      "id": 2,
+      "contenido": "Nuevo producto en venta!",
+      "fecha_publicacion": "2024-11-16T12:00:00Z",
+      "frecuencia": "semanal",
+      "contenido_multimedia": {
+        "audio": "audio_link.mp3",
+        "video": null,
+        "texto": "¡Compralo ahora!"
+      },
+      "analisis_rendimiento": {
+        "likes": 200,
+        "comentarios": 50,
+        "compartidos": 30
+      }
+    },
+    {
+      "id": 3,
+      "contenido": "Foto en mi Instagram",
+      "fecha_publicacion": "2024-11-17T14:00:00Z",
+      "frecuencia": "mensual",
+      "contenido_multimedia": {
+        "audio": null,
+        "video": null,
+        "texto": "¡Mira mi foto!"
+      },
+      "analisis_rendimiento": {
+        "likes": 300,
+        "comentarios": 80,
+        "compartidos": 40
+      }
+    }
+  ],
+  "calendario": [
+    {
+      "id_usuario": 1,
+      "fecha": "2024-11-15",
+      "hora": "10:00",
+      "frecuencia": "diaria"
+    },
+    {
+      "id_usuario": 2,
+      "fecha": "2024-11-16",
+      "hora": "12:00",
+      "frecuencia": "semanal"
+    },
+    {
+      "id_usuario": 1,
+      "fecha": "2024-11-17",
+      "hora": "14:00",
+      "frecuencia": "mensual"
+    }
+  ]
+}
