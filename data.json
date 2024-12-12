@@ -1,38 +1,4 @@
 {
-  "cuentas": [
-    {
-      "id": 1,
-      "usuario": "usuario_facebook",
-      "contraseña": "mi_contraseña_segura",
-      "nombre": "Juan",
-      "apellido": "Pérez",
-      "red_social": "Facebook",
-      "publicaciones": [
-        1,
-        2
-      ]
-    },
-    {
-      "id": 2,
-      "usuario": "usuario_instagram",
-      "contraseña": "otra_contraseña_segura",
-      "nombre": "Ana",
-      "apellido": "García",
-      "red_social": "Instagram",
-      "publicaciones": [
-        3
-      ]
-    },
-    {
-      "id": 3,
-      "usuario": "usuario_twitter",
-      "contraseña": "nueva_contraseña_segura",
-      "nombre": "Carlos",
-      "apellido": "Ramirez",
-      "red_social": "Twitter",
-      "publicaciones": []
-    }
-  ],
   "publicaciones": [
     {
       "id": 1,
@@ -81,26 +47,6 @@
         "comentarios": 80,
         "compartidos": 40
       }
-    }
-  ],
-  "calendario": [
-    {
-      "id_usuario": 1,
-      "fecha": "2024-11-15",
-      "hora": "10:00",
-      "frecuencia": "diaria"
-    },
-    {
-      "id_usuario": 2,
-      "fecha": "2024-11-16",
-      "hora": "12:00",
-      "frecuencia": "semanal"
-    },
-    {
-      "id_usuario": 1,
-      "fecha": "2024-11-17",
-      "hora": "14:00",
-      "frecuencia": "mensual"
     }
   ]
 }

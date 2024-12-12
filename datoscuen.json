@@ -1,0 +1,72 @@
+{
+  "cuentas": [
+    {
+      "id": 1,
+      "usuario": "usuario_facebook",
+      "contraseña": "mi_contraseña_segura",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "red_social": "Facebook",
+      "publicaciones": [
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "usuario": "usuario_instagram",
+      "contraseña": "otra_contraseña_segura",
+      "nombre": "Ana",
+      "apellido": "García",
+      "red_social": "Instagram",
+      "publicaciones": [
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "usuario": "ju_coleto",
+      "contraseña": "contraseña",
+      "nombre": "J",
+      "apellido": "c",
+      "red_social": "whasap",
+      "publicaciones": []
+    },
+    {},
+    {
+      "id": 5,
+      "usuario": "ju_coleto",
+      "contraseña": "contraseña",
+      "nombre": "J",
+      "apellido": "c",
+      "red_social": "whasap",
+      "publicaciones": []
+    },
+    {
+      "id": 6,
+      "usuario": "ju_coleto",
+      "contraseña": "contraseña",
+      "nombre": "J",
+      "apellido": "c",
+      "red_social": "whasap",
+      "publicaciones": []
+    },
+    {
+      "id": 7,
+      "usuario": "ju_coleto",
+      "contraseña": "contraseña",
+      "nombre": "J",
+      "apellido": "c",
+      "red_social": "whasap",
+      "publicaciones": []
+    },
+    {
+      "id": 8,
+      "usuario": "ju_coleto",
+      "contraseña": "contraseña",
+      "nombre": "J",
+      "apellido": "c",
+      "red_social": "whasap",
+      "publicaciones": []
+    }
+  ]
+}
