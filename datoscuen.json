@@ -1,72 +1,113 @@
 {
   "cuentas": [
     {
-      "id": 1,
-      "usuario": "usuario_facebook",
-      "contraseña": "mi_contraseña_segura",
-      "nombre": "Juan",
-      "apellido": "Pérez",
-      "red_social": "Facebook",
-      "publicaciones": [
-        5
-      ]
-    },
-    {
-      "id": 2,
-      "usuario": "usuario_instagram",
-      "contraseña": "otra_contraseña_segura",
-      "nombre": "Ana",
-      "apellido": "García",
-      "red_social": "Instagram",
-      "publicaciones": [
-        5
-      ]
-    },
-    {
       "id": 3,
       "usuario": "ju_coleto",
       "contraseña": "contraseña",
       "nombre": "J",
       "apellido": "c",
       "red_social": "whasap",
-      "publicaciones": []
+      "publicaciones": [
+        5
+      ]
     },
-    {},
     {
-      "id": 5,
+      "id": 4,
       "usuario": "ju_coleto",
       "contraseña": "contraseña",
       "nombre": "J",
       "apellido": "c",
       "red_social": "whasap",
-      "publicaciones": []
+      "publicaciones": [
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "usuario": "jesefa123",
+      "contraseña": "1234",
+      "nombre": "jose",
+      "apellido": "Lgonsales",
+      "red_social": "tiktok",
+      "publicaciones": 200
+    }
+  ],
+  "calendario": [
+    {
+      "id": 1,
+      "fecha": "2024-12-25",
+      "hora": "10:00",
+      "frecuencia": "Anual"
+    },
+    {
+      "id": 3,
+      "fecha": "20-01-2024",
+      "hora": "15:28",
+      "frecuencia": "mensual"
+    },
+    {
+      "id": 4,
+      "fecha": "20-01-2024",
+      "hora": [
+        "15:28"
+      ],
+      "frecuencia": "mensual"
+    },
+    {
+      "id": 5,
+      "fecha": "20-01-2025",
+      "hora": "19:20",
+      "frecuencia": "anual"
+    }
+  ],
+  "analisis": [
+    {
+      "id": 1,
+      "id_publicacion": 1,
+      "likes": 150,
+      "comentarios": 45,
+      "compartidos": 20,
+      "estado": "completo"
+    },
+    {
+      "id": 3,
+      "id_publicacion": 1,
+      "likes": 150,
+      "comentarios": 45,
+      "compartidos": 20,
+      "estado": "en curso"
+    },
+    {
+      "id": 5,
+      "id_publicacion": 5,
+      "likes": 15,
+      "comentarios": 145,
+      "compartidos": 1260,
+      "estado": "completo"
     },
     {
       "id": 6,
-      "usuario": "ju_coleto",
-      "contraseña": "contraseña",
-      "nombre": "J",
-      "apellido": "c",
-      "red_social": "whasap",
-      "publicaciones": []
+      "id_publicacion": 5,
+      "likes": 15,
+      "comentarios": 145,
+      "compartidos": 1260,
+      "estado": "completo"
+    }
+  ],
+  "contenido": [
+    {
+      "id": 1,
+      "contenidoid": 1,
+      "texto": "hola gente",
+      "video": "url",
+      "estado": "completo"
     },
     {
-      "id": 7,
-      "usuario": "ju_coleto",
-      "contraseña": "contraseña",
-      "nombre": "J",
-      "apellido": "c",
-      "red_social": "whasap",
-      "publicaciones": []
-    },
-    {
-      "id": 8,
-      "usuario": "ju_coleto",
-      "contraseña": "contraseña",
-      "nombre": "J",
-      "apellido": "c",
-      "red_social": "whasap",
-      "publicaciones": []
+      "id": 3,
+      "contenidoid": 1,
+      "texto": "hola gente",
+      "video": "url",
+      "estado": "completo"
     }
   ]
 }
